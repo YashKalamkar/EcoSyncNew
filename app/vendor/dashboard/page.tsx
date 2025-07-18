@@ -90,7 +90,7 @@ export default function VendorDashboard() {
 
       const vendorWasteTypesList = wasteTypes?.map((wt) => wt.waste_type) || []
       setVendorWasteTypes(vendorWasteTypesList)
-      console.log("📋 Vendor waste types:", vendorWasteTypesList)
+      console.log(" Vendor waste types:", vendorWasteTypesList)
 
       // Debug info
       setDebugInfo(`Vendor waste types: ${vendorWasteTypesList.join(", ")}`)
